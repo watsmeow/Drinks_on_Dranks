@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bcbf1b3344.js" crossorigin="anonymous"></script>
+
+    <title>Drinks</title>
+</head>
+<body>
+ 
+    <section aria-label="Newest Photos">
+
+        <div class="carousel" data-carousel>   
+
+            <div class="getdrink">
+                <input type="Get Drink" placeholder="Select an adult beverage" id="drinkOne">
+                <input type="Get Drink" placeholder="Select another" id="drinkTwo">
+                <input type="Get Drink" placeholder="One more" id="drinkThree">
+                <button type="submit" id="getDrinkButton">Get Drinkin</button>
+                <button id="getRandomButton">Random Dranks</button>
+            </div>
+            
+            <button class="carousel-button prev" data-carousel-button="prev" id="previous">Previous</button>
+            <button class="carousel-button next" data-carousel-button="next" id="next">Next</button>     
+
+            <ul data-slides>
+                <li class="slide" id="slide1" data-active>
+                    <img src="pics/great-cocktails-9PyQwwmZxpI-unsplash.jpg" alt="" id="image1">
+                    <div class="recipe" id="recipe1">
+                        <h3 id="title1"></h3>
+                        <p id="instructions1"></p>
+                    </div>
+                </li>
+                <li class="slide" id="slide2">
+                    <img id="image2" src="pics/no-revisions-gA81ZTsql68-unsplash.jpg" alt="">
+                    <div class="recipe" id="recipe2">
+                        <h3 id="title2"></h3>
+                        <p id="instructions2"></p>
+                    </div>
+                </li>
+                <li class="slide" id="slide3">
+                    <img src="pics/sandra-seitamaa-akwA-GPF710-unsplash.jpg" alt="" id="image3">
+                    <div class="recipe" id="recipe3">                     <h3 id="title3"></h3>
+                        <p id="instructions3"></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+ <!-- <img src="" name="slide" alt="">-->
+
+</body>
+</html>
